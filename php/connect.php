@@ -1,10 +1,10 @@
 <?php
 
-// header("Content-type:text/html;charset=utf-8");
-require_once('connet.php');
+header("Content-Type:text/plain;charset=utf-8");
+require_once('./config.php');
 
 //连接数据库
-mysql_connect(HOST, UERNAME, PASSWORD);
+mysql_connect(HOST, USERNAME, PASSWORD);
 
 //选择数据库
 mysql_select_db('newyear');
