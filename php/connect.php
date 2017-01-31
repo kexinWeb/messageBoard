@@ -1,6 +1,5 @@
 <?php
 
-header("Content-Type:text/plain;charset=utf-8");
 require_once('./config.php');
 
 //连接数据库
